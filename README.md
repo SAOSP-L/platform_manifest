@@ -1,4 +1,4 @@
-SimpleAOSP Github
+SAOSP-L Github
 ===================
 
 Setting up Build Environment
@@ -10,13 +10,13 @@ Setting up Build Environment
 Initializing the Source
 -----------------------
 (Assuming you have a valid build environment setup)
-- mkdir simpleaosp
-- cd ~/simpleaosp
-- repo init -u https://github.com/SimpleAOSP-Lollipop/platform_manifest.git -b L-5.1
+- mkdir saosp
+- cd ~/saosp
+- repo init -u https://github.com/SAOSP-L/platform_manifest.git -b L
 
 Sync the Source
 ---------------
-- repo sync -jx -f (x being however many cpu jobs)
+- repo sync -jx (x being the number of CPU jobs)
 
 Getting Ready to Build
 ----------------------
@@ -37,9 +37,9 @@ Now Build it
 
 For Quick Dirty Rebuilds
 ------------------------
-- cd ~/simpleaosp
-- repo sync -jx -f (x being however many cpu jobs)
-- lunch and pick the right device (refer to above for choosing right device to build)
+- cd ~/saosp
+- repo sync -jx (x being the number of CPU jobs)
+- lunch and pick the right device (as mentioned above)
 - mka dirty
 - mka otapackage
 

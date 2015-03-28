@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SimpleAOSP-Lollipop/platform_build" groups="pdk,tradefed" remote="github" revision="L-5.1" >
+  <project path="build" name="SAOSP-L/platform_build" groups="pdk,tradefed" remote="github" revision="L" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -42,15 +42,15 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/asus/flo" name="SimpleAOSP-Lollipop/platform_device_asus_flo" groups="device,flo" remote="github" revision="L-5.1" />
+  <project path="device/asus/flo" name="SAOSP-L/platform_device_asus_flo" groups="device,flo" remote="github" revision="L" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/htc/flounder" name="SimpleAOSP-Lollipop/platform_device_htc_flounder" groups="device,flounder" remote="github" revision="L-5.1" />
+  <project path="device/htc/flounder" name="SAOSP-L/platform_device_htc_flounder" groups="device,flounder" remote="github" revision="L" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="SimpleAOSP-Lollipop/platform_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="L-5.1" />
+  <project path="device/lge/hammerhead" name="SAOSP-L/platform_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="L" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
-  <project path="device/lge/mako" name="SimpleAOSP-Lollipop/platform_device_lge_mako" groups="device,mako" remote="github" revision="L-5.1" />
+  <project path="device/lge/mako" name="SAOSP-L/platform_device_lge_mako" groups="device,mako" remote="github" revision="L" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-  <project path="device/moto/shamu" name="SimpleAOSP-Lollipop/platform_device_moto_shamu" groups="device,shamu" remote="github" revision="L-5.1" />
+  <project path="device/moto/shamu" name="SAOSP-L/platform_device_moto_shamu" groups="device,shamu" remote="github" revision="L" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -282,7 +282,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="SimpleAOSP-Lollipop/platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="L-5.1" />
+  <project path="frameworks/base" name="SAOSP-L/platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="L" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -291,7 +291,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="SimpleAOSP-Lollipop/platform_frameworks_native" groups="pdk" remote="github" revision="L-5.1" />
+  <project path="frameworks/native" name="SAOSP-L/platform_frameworks_native" groups="pdk" remote="github" revision="L" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -308,7 +308,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="SimpleAOSP-Lollipop/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="L-5.1" />
+  <project path="frameworks/opt/telephony" name="SAOSP-L/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="L" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -370,16 +370,16 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="SimpleAOSP-Lollipop/platform_packages_apps_Contacts" remote="github" revision="L-5.1" />
-  <project path="packages/apps/ContactsCommon" name="SimpleAOSP-Lollipop/platform_packages_apps_ContactsCommon" remote="github" revision="L-5.1" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="SimpleAOSP-Lollipop/platform_packages_apps_Dialer" remote="github" revision="L-5.1" />
+  <project path="packages/apps/Dialer" name="SAOSP-L/platform_packages_apps_Dialer" remote="github" revision="L" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-12.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="SimpleAOSP-Lollipop/platform_packages_apps_InCallUI" remote="github" revision="L-5.1" />
+  <project path="packages/apps/InCallUI" name="SAOSP-L/platform_packages_apps_InCallUI" remote="github" revision="L" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -393,12 +393,12 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/PhoneCommon" name="SimpleAOSP-Lollipop/platform_packages_apps_PhoneCommon" remote="github" revision="L-5.1" />
+  <project path="packages/apps/PhoneCommon" name="SAOSP-L/platform_packages_apps_PhoneCommon" remote="github" revision="L" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SimpleAOSP-Lollipop/platform_packages_apps_Settings" remote="github" revision="L-5.1" />
-  <project path="packages/apps/ScreenRecorder" name="SimpleAOSP-Lollipop/platform_packages_apps_ScreenRecorder" remote="github" revision="L-5.1" />
+  <project path="packages/apps/Settings" name="SAOSP-L/platform_packages_apps_Settings" remote="github" revision="L" />
+  <project path="packages/apps/ScreenRecorder" name="SAOSP-L/platform_packages_apps_ScreenRecorder" remote="github" revision="L" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -416,17 +416,17 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/MediaProvider" name="SAOSP-L/platform_packages_providers_MediaProvider" groups="pdk-cw-fs" remote="github" revision="L" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="SimpleAOSP-Lollipop/platform_packages_providers_TelephonyProvider" remote="github" revision="L-5.1" />
+  <project path="packages/providers/TelephonyProvider" name="SAOSP-L/platform_packages_providers_TelephonyProvider" remote="github" revision="L" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="SimpleAOSP-Lollipop/platform_packages_services_Telecomm" remote="github" revision="L-5.1" />
-  <project path="packages/services/Telephony" name="SimpleAOSP-Lollipop/platform_packages_services_Telephony" remote="github" revision="L-5.1" />
+  <project path="packages/services/Telecomm" name="SAOSP-L/platform_packages_services_Telecomm" remote="github" revision="L" />
+  <project path="packages/services/Telephony" name="SAOSP-L/platform_packages_services_Telephony" remote="github" revision="L" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -489,7 +489,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="SimpleAOSP-Lollipop/platform_system_core" groups="pdk" remote="github" revision="L-5.1" />
+  <project path="system/core" name="SAOSP-L/platform_system_core" groups="pdk" remote="github" revision="L" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -510,7 +510,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor" name="SimpleAOSP-Lollipop/platform_vendor_proprietary" remote="github" revision="L-5.1" />
-  <project path="vendor/simpleaosp" name="SimpleAOSP-Lollipop/platform_vendor_simpleaosp" remote="github" revision="L-5.1" />
+  <project path="vendor" name="SAOSP-L/platform_vendor_proprietary" remote="github" revision="L" />
+  <project path="vendor/simpleaosp" name="SAOSP-L/platform_vendor_simpleaosp" remote="github" revision="L" />
 
 </manifest>
