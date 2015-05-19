@@ -16,7 +16,7 @@
            sync-j="8"
 	   sync-c="true"/>
 
-  <project path="build" name="SAOSP-L/platform_build" groups="pdk,tradefed" remote="github" revision="L" >
+  <project path="build" name="SAOSP-L/platform_build" groups="pdk,tradefed" remote="github" revision="ubertc" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />

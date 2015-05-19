@@ -1,6 +1,6 @@
 SAOSP-L Github 
 ===================
-(cm12 Theme Engine build)
+(cm12 Theme Engine build with UberTC toolchain)
 ===================
 
 Setting up Build Environment
@@ -14,7 +14,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir saosp
 - cd ~/saosp
-- repo init -u https://github.com/SAOSP-L/platform_manifest.git -b L
+- repo init -u https://github.com/SAOSP-L/platform_manifest.git -b ubertc
 
 Sync the Source
 ---------------
