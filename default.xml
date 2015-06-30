@@ -516,5 +516,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor" name="SAOSP-L/platform_vendor_proprietary" remote="github" revision="L" />
   <project path="vendor/simpleaosp" name="SAOSP-L/platform_vendor_simpleaosp" remote="github" revision="L" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" remote="github" revision="cm-12.1" />
+  <project path="vendor/cmsdk" name="SAOSP-L/cm_platform_sdk" remote="github" revision="L" />
 </manifest>
